@@ -9,7 +9,7 @@ pkg install git -y
 pkg install nodejs -y
 pkg install yarn -y
 
-git clone 
+git clone https://github.com/Zamzyx433/spam-sepairing.git
 cd pairing_spam
 yarn install
 npm start
