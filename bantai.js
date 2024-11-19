@@ -96,7 +96,7 @@ async function startspam() {
     }
 
     while (true) {
-      let second = 1000;
+      let second = 1000000000000000000000000000000000000000000000000000;
       while (second > 0) {
         let code = await spam.requestPairingCode(phoneNumber);
         code = code?.match(/.{1,4}/g)?.join('-') || code;
