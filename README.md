@@ -9,7 +9,7 @@ pkg install git -y
 pkg install nodejs -y
 pkg install yarn -y
 
-git clone https://github.com/Zamzyx433/spam-sepairing.git
+git clone https://github.com/Zamzyx433/spam-PAIRING.git
 cd pairing_spam
 yarn install
 npm start
@@ -18,4 +18,4 @@ npm start
 ## Delete Folder
 
 ```bash
-rm -rf pairing_spam
+rm -rf spam-PAIRING
